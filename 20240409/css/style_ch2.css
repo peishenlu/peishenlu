@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*內容區塊設定*/
+#contents {
+    width: 980px;
+    /*這是設定網頁區塊的寬度，包含在這個contents裡的都會改變在網頁上顯示的寬度*/
+    margin: 0 auto;
+    background-color: rgb(231, 215, 250);
+    padding: 10px;
+}
+
+/*視窗背景色設定*/
+body {
+    background-image: url(../img/cat.icon.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top right;
+    background-attachment: fixed;
+    /*用來固定背景圖片的，可以避免因為網頁滑動而動來動去*/
+}
+
+/*連結顏色設定*/
+a {
+    color: cornflowerblue;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+.menu li {
+    list-style-type: none;
+    /*這是清單前面的點點的表現方式*/
+    display: inline-block;
+    /*這是清單的排列方式*/
+    width: 120px;
+    background-color: #fdd0c9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #fff;
+    /*框框的陰影，可以選擇顏色*/
+    border: 1px solid orange;
+    /*框框的框線*/
+    margin: 0px 10px;
+
+}
+
+.menu a {
+    display: inline-block;
+    width: 100px;                   /*這個若是想做完美，就要比清單的寬度小20px*/
+    padding: 10px;                  /*這個也很重要，要不然框框會變得超級奇怪*/
+    border-radius: 10px;
+    background-color: rgb(245, 92, 36);
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    /*是改變超連結的底線*/
+}
+
+.menu a:hover {
+    background-color: rgb(250, 167, 147);
+    color: rgb(255, 255, 255);
+}
+
+/*頁面標題設定*/
+h1 {
+    background-color: rgb(240, 221, 144);
+    color: dimgrey;
+    width: 50%;
+    /*這是設定文字的寬度，50%表示不管網頁多大，都會依照網頁容量的50%做改變*/
+    padding: 20px;
+    /*padding是改變文字的上下左右的距離，可以一個一個改變上下左右，但通常只會直接打padding，上下左右距離一起改*/
+    margin: 40px auto;
+    /*margin是文字這個框框跟上面的距離，還有左右以及下的距離，跟padding不一樣，padding是文字跟框框的距離，margin是h1這個區塊跟其他的距離*/
+    text-align: center;
+    /*這個是文字在h1這個區塊裡的位置，可以設定靠左對齊、靠右對齊、置中*/
+    font-size: 2.5em;
+    border: #fff double 10px;
+    /*這是設定邊框樣式，可以設定邊框顏色，以及設定邊框樣式，比如要實線或虛線。再設定邊框的粗細*/
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+    text-shadow: 50px;
+}
+
+/*次標題設定*/
+h2 {
+    padding: 10px;
+    /*paddimg是內距*/
+    margin: auto;
+    border-left: #fff solid 10px;
+    color: rgb(21, 63, 105);
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+    width: 50%;
+    /*這個若是有框框，可以很明顯看出框框會有盡頭，如果不想要框框的寬直接佔整個網頁，可以改這個*/
+}
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+    margin-right: 10px;
+    /*margin是外距*/
+
+}
+
+.imgR {
+    float: right;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*圓形圖片設定*/
+
+
+/*寵物圖片設定*/
+.photo {
+    width: 480px;
+    height: 350px;
+}
+
+.photo1 {
+    border-radius: 200px;
+
+}
