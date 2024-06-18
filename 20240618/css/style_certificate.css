@@ -1,0 +1,70 @@
+body{
+    margin: 0 auto;
+    background-color: #512992;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: #512992;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 25px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu a{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #512992;
+    color: rgb(255, 255, 255);
+    text-decoration: none;  /*是改變超連結的底線*/
+}
+.menu a:hover{
+    background-color: rgb(204, 147, 250);
+    color: rgb(255, 255, 255);
+}
+.certifi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo1{
+    width: 400px;
+    height: 280px;
+    float: left;
+    margin: 30px;
+}
+.photo2{
+    width: 400px;
+    height: 280px;
+    margin: 30px;
+    float: right;
+}
+.photo3{
+    width: 400px;
+    height: 280px;
+    float: left;
+    margin: 300px 30px;
+}
+.photo4{
+    width: 400px;
+    height: 280px;
+    float: right;
+    margin: 30px;
+}
+
+.photo imgL{
+    float: left;
+    margin: 60px;
+    
+}
+.photo imgR{
+    float: right;
+    clear: both;
+    margin: 60px;
+}

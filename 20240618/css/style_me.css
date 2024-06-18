@@ -1,0 +1,78 @@
+body{
+    margin: 0 auto;
+    background-color: #512992;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: #512992;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 25px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu a{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #512992;
+    color: rgb(255, 255, 255);
+    text-decoration: none;  /*是改變超連結的底線*/
+}
+.menu a:hover{
+    background-color: rgb(204, 147, 250);
+    color: rgb(255, 255, 255);
+}
+.section-about{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    width: 400px;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 40px;
+    justify-content: center;
+}
+.email-link {  
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.email-link:hover{
+    color: rgb(159, 187, 237);
+    text-decoration: none;
+}
+
+.picture1{
+    margin: 0;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    justify-content: center;
+}
+
+.p1{
+    float: left;
+    margin: 30px;
+}
+.p2{
+    float: right;
+    margin: 30px;
+}
+.p3{
+    margin: 30px;
+}

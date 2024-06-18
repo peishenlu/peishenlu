@@ -1,0 +1,109 @@
+body{
+    margin: 0 auto;
+    background-color: #512992;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: #512992;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 25px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu a{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #512992;
+    color: rgb(255, 255, 255);
+    text-decoration: none;  /*是改變超連結的底線*/
+}
+.menu a:hover{
+    background-color: rgb(204, 147, 250);
+    color: rgb(255, 255, 255);
+}
+.total{
+    display: flex;
+}
+.menu3 a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    justify-content: center;
+    font-family: "Caveat", cursive;
+}
+
+.menu3 a:hover{
+    color: darksalmon;
+}
+
+.menu4 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    font-family: "Caveat", cursive;
+}
+
+.menu4 a:hover{
+    color: darksalmon;
+}
+h1{
+    font-family: "Pacifico", cursive;
+}
+
+.menu5 a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+    font-family: "Caveat", cursive;
+}
+
+.menu5 a:hover{
+    color: darksalmon;
+}
+
+.menu6 a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+    font-family: "Caveat", cursive;
+}
+
+.menu6 a:hover{
+    color: darksalmon;
+}
+
+.menu7 a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+    font-family: "Caveat", cursive;
+}
+
+.menu7 a:hover{
+    color: darksalmon;
+}
+
+.menu8 a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 30px;
+    font-family: "Caveat", cursive;
+}
+
+.menu8 a:hover{
+    color: darksalmon;
+}
