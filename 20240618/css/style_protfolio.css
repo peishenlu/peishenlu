@@ -30,14 +30,13 @@ body{
 }
 .total{
     display: flex;
+    justify-content: center;
 }
 .menu3 a{
-
     color: white;
     text-decoration: none;
     font-size: 20px;
     margin: 30px;
-    justify-content: center;
     font-family: "Caveat", cursive;
 }
 
