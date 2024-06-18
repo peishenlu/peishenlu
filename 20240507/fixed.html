@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body {
+            width: 980px;
+            margin: 0px auto;
+        }
+        #container{
+            width: 980px;
+            margin: auto;
+            position: relative;
+        }
+
+        header {
+            height: 200px;
+            background-color: bisque;
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgb(204, 242, 243);
+            position: relative;
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: rgb(224, 185, 231);
+        }
+
+        aside {
+            width: 20%;
+            background-color: rgb(184, 170, 245);
+            min-height: 1000px;
+            float: left;
+        }
+
+        section {
+            width: 80%;
+            background-color: rgb(199, 245, 229);
+            min-height: 1000px;
+            float: left;
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgb(199, 243, 199);
+        }
+
+        .menu {
+            list-style-type: none;
+            width: 600px;
+            position: absolute;
+            right: -50px;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .menu-item a:hover {
+            color: blueviolet;
+        }
+        .gotop{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid rgb(53, 52, 52);
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            right: 300px;
+            bottom: 30px;
+            line-height: 3em;
+        }
+        .arrow{
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <header></header>
+        </div>
+        <nav></nav>
+        <main></main>
+        <footer></footer>
+        <a href="#header">
+            <div class="gotop">
+                <i class="fa-solid fa-arrow-up fa-bounce fa-xl arrow" style="color: #74C0FC;"></i>
+            </div>
+        </a>
+    </div>
+
+</body>
+
+</html>
